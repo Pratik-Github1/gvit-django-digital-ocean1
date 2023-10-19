@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Your Page Title</title>
+</head>
+<style>
+    
+</style>
+<body>
+    <header>
+        <h1>Welcome to My Page</h1>
+    </header>
+    
+    <div class="container">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>28</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Modal Title</h2>
+            <p>This is some modal content.</p>
+        </div>
+    </div>
+    
+    <button id="openModal" onclick="openModal()">Open Modal</button>
+    
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
