@@ -1,5 +1,4 @@
-
-Django
+Django==2.1.9
 django-mssql-backend
 django-pyodbc-azure
 gunicorn
