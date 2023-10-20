@@ -1,0 +1,16 @@
+asgiref
+certifi
+charset-normalizer
+Django
+gunicorn
+idna
+mssql-django
+packaging
+Pillow
+pyodbc
+pytz
+requests
+sqlparse
+tzdata
+urllib3
+whitenoise
