@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 Django==4.2.6
+=======
+asgiref==3.7.2
+certifi==2023.7.22
+charset-normalizer==3.2.0
+Django==2.1.9
+>>>>>>> d53eb410be94cf104af14d8477e6405ef9983005
 gunicorn==21.2.0
 mssql-django==1.3
 pyodbc==5.0.1
