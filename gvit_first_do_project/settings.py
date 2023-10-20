@@ -68,15 +68,15 @@ WSGI_APPLICATION = 'gvit_first_do_project.wsgi.application'
 #     }
 # }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'mssql',
-#         'NAME': 'gvit',
-#         'HOST': '64.227.128.180,1433',
-#         'USER': 'SA',
-#         'PASSWORD': 'YourPassword123!',
-#     },
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'mssql',
+        'NAME': 'gvit',
+        'HOST': '64.227.128.180,1433',
+        'USER': 'SA',
+        'PASSWORD': 'YourPassword123!',
+    },
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
