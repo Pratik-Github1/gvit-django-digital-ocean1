@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY' , 'django-insecure-%xex^vojcjzotuv08aff!i&7wx!0uc!8ya#5hsda1xw_%)(a1_')
 
-DEBUG = True
+# DEBUG = True
 DEBUG = os.getenv('DEBUG' , 'True') == 'True'
 
 ALLOWED_HOSTS = ['*']
@@ -68,15 +68,15 @@ WSGI_APPLICATION = 'gvit_first_do_project.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'mssql',
-        'NAME': 'gvit',
-        'HOST': '64.227.128.180,1433',
-        'USER': 'SA',
-        'PASSWORD': 'YourPassword123!',
-    },
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'mssql',
+#         'NAME': 'gvit',
+#         'HOST': '64.227.128.180,1433',
+#         'USER': 'SA',
+#         'PASSWORD': 'YourPassword123!',
+#     },
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
