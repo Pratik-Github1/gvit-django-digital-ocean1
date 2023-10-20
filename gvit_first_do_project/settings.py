@@ -92,9 +92,6 @@ DATABASES = {
         'HOST': '64.227.128.180,1433',
         'USER': 'SA',
         'PASSWORD': 'YourPassword123!',
-        'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
-        },
     },
 }
 
