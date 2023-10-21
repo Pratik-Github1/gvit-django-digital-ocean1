@@ -72,7 +72,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'mssql',
         'NAME': 'gvit',
-        'HOST': '64.227.128.180,1433',
+        'HOST': '64.227.128.136,1433',
         'USER': 'SA',
         'PASSWORD': 'Password123',
         'OPTIONS': {
