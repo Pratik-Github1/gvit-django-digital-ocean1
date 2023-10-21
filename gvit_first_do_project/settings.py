@@ -68,18 +68,18 @@ WSGI_APPLICATION = 'gvit_first_do_project.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'mssql',
-        'NAME': 'gvit',
-        'HOST': '64.227.128.136,1433',
-        'USER': 'SA',
-        'PASSWORD': 'Password123',
-        'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
-        },
-    },
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'mssql',
+#         'NAME': 'gvit',
+#         'HOST': '64.227.128.136,1433',
+#         'USER': 'SA',
+#         'PASSWORD': 'Password123',
+#         'OPTIONS': {
+#             'driver': 'ODBC Driver 17 for SQL Server',
+#         },
+#     },
+# }
 
 
 
