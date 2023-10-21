@@ -81,7 +81,17 @@ WSGI_APPLICATION = 'gvit_first_do_project.wsgi.application'
 #     },
 # }
 
-
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'defaultdb',  # Your database name
+        'USER': 'doadmin',     # Your database username
+        'PASSWORD': 'AVNS_QXYn9SGasIWCtPXFknt',  # Your database password
+        'HOST': 'db-mysql-blr1-93027-do-user-14823035-0.c.db.ondigitalocean.com',  # Your database host
+        'PORT': '25060',  # Your database port
+        
+    }
+}
 
 
 
